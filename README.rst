@@ -1,3 +1,61 @@
+-------------------------------------------
+Fork of the official ``readthedocs/sphinx_rtd_theme`` repo.
+-------------------------------------------
+
+``work in progress...``
+
+^^^^^^^^^^^^^^^^
+Original repo
+^^^^^^^^^^^^^^^^
+
+* https://github.com/readthedocs/sphinx_rtd_theme
+
+^^^^^^^^^^^^^^^^
+About this Fork
+^^^^^^^^^^^^^^^^
+
+Goal is to...
+
+* create a ``pip`` installable theme that users can download locally
+
+Steps to use once complete:
+ 
+* Checkout the official Python docs
+* Edit ``cpython/Doc/config.py`` Sphinx Configuration file to reference this new ``python_rtd_theme``
+* Then build the official Python Docs locally, get a website with a true TOC ("Table of Contents") sidebar.
+
+^^^^^^^^^^^^
+Related Repos
+^^^^^^^^^^^^
+
+* https://github.com/python-docs-101/Python-Documentation-Theme-Fork
+  
+  * ``cpython`` fork, used to re-build official docs using Read The Docs theme
+  
+* https://github.com/python-docs-101/python-docs-101.github.io
+
+  * GitHub Pages website hosting the output of the fork of the official docs.
+
+
+^^^^^^^^^^^^
+Product
+^^^^^^^^^^^^
+| Official Docs with TOC Sidebar:
+| https://python-docs-101/python-docs-101.github.io
+
+
+|
+|
+|
+|
+|
+| Original readme below this line
+|
+|
+|
+|
+|
+
 **************************
 Read the Docs Sphinx Theme
 **************************
