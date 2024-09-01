@@ -28,11 +28,11 @@ Steps to use once complete:
 Related Repos
 ^^^^^^^^^^^^
 
-* https://github.com/python-docs-101/Python-Documentation-Theme-Fork
+* https://github.com/python-sidebar/Python-Documentation-Theme-Fork
   
   * ``cpython`` fork, used to re-build official docs using Read The Docs theme
   
-* https://github.com/python-docs-101/python-docs-101.github.io
+* https://github.com/python-sidebar/python-sidebar.github.io
 
   * GitHub Pages website hosting the output of the fork of the official docs.
 
@@ -41,7 +41,7 @@ Related Repos
 Product
 ^^^^^^^^^^^^
 | Official Docs with TOC Sidebar:
-| https://python-docs-101/python-docs-101.github.io
+| https://python-sidebar/python-sidebar.github.io
 
 
 |
