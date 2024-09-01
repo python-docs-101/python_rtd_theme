@@ -28,7 +28,7 @@ Steps to use once complete:
 Related Repos
 ^^^^^^^^^^^^
 
-* https://github.com/python-sidebar/Python-Documentation-Theme-Fork
+* https://github.com/python-sidebar/Python-Documentation-Fork-With-TOC
   
   * ``cpython`` fork, used to re-build official docs using Read The Docs theme
   
