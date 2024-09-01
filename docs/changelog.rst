@@ -4,10 +4,115 @@ Changelog
 
 .. seealso:: :ref:`howto_upgrade`
 
-|theme_version|
-===============
+.. |theme_version| replace:: 3.0.0rc1
 
-.. |theme_version| replace:: 1.2.1alpha1
+.. _release-3.0.0rc1:
+
+3.0.0rc1
+========
+
+Added
+-----
+
+* Added support for Sphinx 8.
+* Added support for Python 3.12.
+* Added support for docutils ``>0.18, <0.22``.
+* Populate ``html_context`` with all the environment variables starting with ``READTHEDOCS_``.
+
+Deprecations
+------------
+
+* Drop support for Sphinx ``<6.0``.
+* Drop support for Python ``<3.8``.
+* ``analytics_id`` and ``analytics_anonymize_ip`` are deprecated, use sphinxcontrib-googleanalytics_ instead.
+* Drop support for all versions of Internet Explorer.
+* Raise a warning when defining ``html_theme_path``. This was an old config that's not required anymore.
+* ``extra_css_files`` is deprecated and support will be removed in a future version.
+
+.. _sphinxcontrib-googleanalytics: https://pypi.org/project/sphinxcontrib-googleanalytics/
+
+.. _release-2.1.0rc2:
+
+2.1.0rc2
+========
+
+Added
+-----
+
+* Added ``flyout_display`` option to display the flyout
+  ``attached`` (bottom of the sidebard) or ``hidden`` (default).
+
+.. _release-2.1.0rc1:
+
+2.1.0rc1
+========
+
+Added
+-----
+
+* Render the menu versions/languages selector (flyout)
+  using the new ``readthedocs-addons-data-ready`` Read the Docs Addons ``CustomEvent``.
+
+Deprecations
+------------
+
+* Remove ``html5shiv``.
+
+.. _release-2.0.0:
+
+2.0.0
+=====
+
+Added
+-----
+
+* Support for Sphinx versions ``6.x`` and ``7.x``
+* Support for docutils ``<=0.20``
+
+Deprecations
+------------
+
+* The HTML4 writer is now officially deprecated. An error will be thrown if your
+  project configuration still uses the HTML4 writer.
+* Support for Sphinx versions < 5.0 was removed.
+* In addition, our supported dependencies will match the dependencies from our
+  lowest supported Sphinx release, version 5.0: Python >= 3.6 and docutils > 0.14 and < 0.19
+
+.. _release-1.3.0:
+
+1.3.0
+=====
+
+Added
+-----
+
+* Relaxed requirements to include Sphinx release ``7.0``
+
+.. _release-1.2.2:
+
+1.2.2
+=====
+
+Fixes
+-----
+
+* Require `sphinxcontrib-jquery>=4,<5` (#1446)
+
+Added
+-----
+
+* Styling for `:menuselection:` (#1426)
+
+
+.. _release-1.2.1:
+
+1.2.1
+=====
+
+Fixes
+-----
+
+* Load jQuery correctly when using latest sphinxcontrib-jquery release (#1448)
 
 
 .. _release-1.2.0:

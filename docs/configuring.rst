@@ -21,6 +21,7 @@ For example:
         'style_external_links': False,
         'vcs_pageview_mode': '',
         'style_nav_header_background': 'white',
+        'flyout_display': 'hidden',
         # Toc options
         'collapse_navigation': True,
         'sticky_navigation': True,
@@ -101,7 +102,11 @@ Miscellaneous options
 
     :type: string
 
+    .. deprecated:: 3.0.0
+       The ``analytics_id`` option is deprecated, use the sphinxcontrib-googleanalytics_ extension instead.
+
     .. _gtag.js: https://developers.google.com/gtagjs
+    .. _sphinxcontrib-googleanalytics: https://pypi.org/project/sphinxcontrib-googleanalytics/
 
 .. confval:: analytics_anonymize_ip
 
@@ -109,6 +114,9 @@ Miscellaneous options
 
    :type: boolean
    :default: ``False``
+
+   .. deprecated:: 3.0.0
+       The ``analytics_anonymize_ip`` option is deprecated, use the sphinxcontrib-googleanalytics_ extension instead.
 
 .. confval:: canonical_url
 
@@ -173,6 +181,16 @@ Miscellaneous options
 
     :type: string
     :default: ``#2980B9``
+
+.. confval:: flyout_display
+
+    Specify how to display the flyout (language and version selector).
+    This can be either ``attached`` or ``hidden``.
+    ``attached`` means that it will show the flyout in the bottom of the sidebar.
+    You will need to disable the default `Read the Docs flyout <https://docs.readthedocs.io/en/stable/flyout-menu.html>`_ in order to not have 2 flyouts showing.
+
+    :type: str
+    :default: ``hidden``
 
 
 File-wide metadata
